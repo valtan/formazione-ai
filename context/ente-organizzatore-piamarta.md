@@ -46,7 +46,7 @@ L'A.F.G.P. ha lo scopo di svolgere **attività di educazione e formazione** con 
 | **Centro Piamarta Milano** | Via Pusiano, 52 – 20132 Milano | Tel. 02.26303500 — piamarta@piamarta.it |
 | **Centro Artigianelli Brescia** | Via Piamarta, 6 – 25121 Brescia | Tel. 030.293571 — artigianelli@piamarta.it |
 | **Centro Bonsignori** | Via Cappellazzi, 5 – Remedello (BS) | Tel. 030.957690 — bonsignori@piamarta.it |
-| **Piamarta Fasce Deboli** | Via Pusiano, 52 – 20132 Milano | Tel. 02.26303500 — piamarta@piamarta.it |
+| **Piamarta Lavoro e Sviluppo (PLES)** | Via Enrico Ferri, 73 – Brescia | Tel. 030.6481405 — piamartalavoroesviluppo@piamarta.it |
 
 ---
 
@@ -93,6 +93,7 @@ L'A.F.G.P. ha lo scopo di svolgere **attività di educazione e formazione** con 
 ## Riferimenti web e contatti istituzionali
 
 - Sito istituzionale A.F.G.P.: [www.afgp.it](https://www.afgp.it)
+- Piamarta Lavoro e Sviluppo (PLES): [www.afgp.it/ples.html](https://www.afgp.it/ples.html)
 - Centro Piamarta Milano: [piamarta.afgp.it](https://piamarta.afgp.it)
 - Email sede Milano: piamarta@piamarta.it
 - PEC sede Milano: milano.afgp@raccomandataelettronica.com
