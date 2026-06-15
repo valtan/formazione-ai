@@ -55,6 +55,7 @@ Fonte di verità completa: `context/glossario-it.md`. Quando un termine non è l
 - Prompt nei materiali: scrivili in italiano, formattati in code block, con commento sul perché funzionano.
 - Affronta sempre i limiti: allucinazioni, privacy/fuga dati, bias, dipendenza cognitiva. Mai glissare.
 - Segnala i punti del materiale da personalizzare per il committente.
+- per lo stile degli output fai sempre riferimento al file `context/brand-style-guide.md`
 
 ## Anti-allucinazione
 
