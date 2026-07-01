@@ -90,15 +90,20 @@ txt(48,135+3*SP,"CORSO AI.","BS",TS,ACID)
 sub="Formazione sull'AI generativa progettata su misura, a partire dai processi reali della vostra azienda: i vostri documenti, i vostri strumenti, le vostre persone."
 para(48,389.9,sub,"IS",13.0,BODYDK,470,18)
 
-# constellation (decorative) top-right — kept, FIG caption removed
-CL=LINEDK
-for a,b in [((478,341.9),(508,296.9)),((508,296.9),(548,326.9)),((548,326.9),(552,266.9)),
-            ((552,266.9),(515,246.9)),((515,246.9),(482,271.9)),((508,296.9),(515,246.9)),
-            ((548,326.9),(545,379.9)),((478,341.9),(545,379.9))]:
-    line(a[0],a[1],b[0],b[1],CL,0.8)
-for (cx,ct,r,col) in [(478,341.9,2.4,NODEGREY),(508,296.9,4.2,ACID),(548,326.9,3.4,COBALT),
-                      (552,266.9,4.2,ACID),(515,246.9,2.4,NODEGREY),(482,271.9,3.4,COBALT),
-                      (545,379.9,2.4,NODEGREY)]:
+# constellation / rete di nodi — riempie l'area vuota a destra del titolo (FIG caption rimossa)
+NODES={
+ 'A':(414,176),'B':(476,158),'C':(534,196),'D':(452,232),'E':(514,254),
+ 'F':(410,302),'G':(474,312),'H':(538,322),'I':(492,356),'J':(430,352)
+}
+EDGES=[('A','B'),('B','C'),('A','D'),('D','B'),('D','E'),('E','C'),('E','B'),
+       ('D','G'),('F','G'),('G','E'),('G','H'),('H','E'),('G','I'),('I','H'),
+       ('J','F'),('J','G'),('I','J')]
+ACCENT={'C':(ACID,4.0),'E':(COBALT,3.3),'G':(COBALT,3.5),'I':(ACID,3.8)}
+for a,b in EDGES:
+    (x1,y1),(x2,y2)=NODES[a],NODES[b]
+    line(x1,y1,x2,y2,LINEDK,0.8)
+for k,(cx,ct) in NODES.items():
+    col,r=ACCENT.get(k,(NODEGREY,2.4))
     circ(cx,ct,r,fill=col)
 
 # IL PERCORSO block
@@ -146,9 +151,9 @@ line(48,68,547.3,68,LINEP1,0.7)
 
 # hero
 txt(48,118,"I RISULTATI RESTANO","BS",52,INK)
-txt(48,160,"IN AZIENDA.","BS",52,COBALT)
+txt(48,167,"IN AZIENDA.","BS",52,COBALT)
 hero2="Non solo formazione: analizziamo i vostri processi e vi accompagniamo nel trovare le soluzioni AI davvero utili — per l'azienda e per le persone."
-para(48,192,hero2,"IS",12.5,GREY,499,17)
+para(48,201,hero2,"IS",12.5,GREY,499,17)
 
 line(48,259.9,547.3,259.9,LINEP1,0.7)
 mono(48,249.9,"COSA RESTA IN AZIENDA","GMB",8.0,COBALT)
@@ -185,27 +190,29 @@ txt(66,644.9,"Follow-up:","ISB",10.0,INK)
 fw=pdfmetrics.stringWidth("Follow-up:","ISB",10.0)
 txt(66+fw+3,644.9," consulenza continuativa opzionale dopo il corso, per accompagnarvi nell'evoluzione dei processi.".strip(),"IS",10.0,GREY)
 
-# footer ink band
-rect(0,686.9,W,691.9,ACID)
-rect(0,691.9,W,841.9,INK)
-txt(48,729.9,"Prenotate l'assessment gratuito","OF",17.0,ACID)
-txt(48,747.9,"Un incontro conoscitivo e un questionario. Nessun costo, nessun vincolo.","IS",10.5,BODYDK)
+# footer ink band (ampliato verso l'alto: acid 658 / ink 663, senza toccare la timeline sopra)
+rect(0,658,W,663,ACID)
+rect(0,663,W,841.9,INK)
+txt(48,694,"Prenotate l'assessment gratuito","OF",17.0,ACID)
+txt(48,712,"Un incontro conoscitivo e un questionario. Nessun costo, nessun vincolo.","IS",10.5,BODYDK)
+line(48,728,547.3,728,LINEDK,0.7)
 
-# logo in footer (paper box, right side of CTA area)
-img=Image.open(LOGO); iw,ih=img.size; ar=iw/ih
-box_w=138; pad=8
-logo_w=box_w-2*pad; logo_h=logo_w/ar
-box_h=logo_h+2*pad
-box_x1=547.3; box_x0=box_x1-box_w
-box_cy=727.0; box_top=box_cy-box_h/2; box_bot=box_cy+box_h/2
-rect(box_x0,box_top,box_x1,box_bot,WHITE)
-c.drawImage(ImageReader(LOGO),box_x0+pad,Y(box_bot-pad),width=logo_w,height=logo_h,mask='auto')
+# contatti su piu' righe (colonna sinistra)
+mono(48,746,"PIAMARTA LAVORO E SVILUPPO — A.F.G.P. ASSOCIAZIONE FORMAZIONE GIOVANNI PIAMARTA","GMB",7.5,ACID,track=0.9)
+txt(48,762,"Via Enrico Ferri 73, Brescia","IS",9.0,BODYDK)
+txt(48,778,"Tel. 030 6481405","IS",9.0,BODYDK)
+txt(48,794,"piamartalavoroesviluppo@piamarta.it","IS",9.0,BODYDK)
+txt(48,810,"www.afgp.it/ples.html","IS",9.0,BODYDK)
+txt(48,828,"Ente accreditato Regione Lombardia per i Servizi di Formazione","IS",8.0,MIST)
 
-line(48,763.9,547.3,763.9,LINEDK,0.7)
-mono(48,783.9,"PIAMARTA LAVORO E SVILUPPO — A.F.G.P. ASSOCIAZIONE FORMAZIONE GIOVANNI PIAMARTA","GMB",7.5,ACID,track=0.9)
-txt(48,799.9,"Via Enrico Ferri 73, Brescia   ·   Tel. 030 6481405   ·   piamartalavoroesviluppo@piamarta.it   ·   www.afgp.it/ples.html","IS",8.6,BODYDK)
-txt(48,817.9,"Ente accreditato Regione Lombardia per i Servizi di Formazione","IS",8.5,MIST)
+# QR code (destra) in box Paper arrotondato + didascalia
+QR="/sessions/inspiring-practical-hawking/mnt/formazione-ai/comunicazione/stampa/qr-afgp-ples.png"
+qx1=547.3; qbox=68; qx0=qx1-qbox; qtop=754; qbot=qtop+qbox; qpad=7
+c.setFillColorRGB(*WHITE)
+c.roundRect(qx0,Y(qbot),qbox,qbox,7,stroke=0,fill=1)
+c.drawImage(ImageReader(QR),qx0+qpad,Y(qbot-qpad),width=qbox-2*qpad,height=qbox-2*qpad,mask='auto')
+mono(qx1,832,"Clicca o inquadra il QR code","GM",6.8,MIST,align="r",track=0.4)
 
 c.showPage()
 c.save()
-print("saved",OUT, "logo box_h",round(box_h,1),"top",round(box_top,1),"bot",round(box_bot,1))
+print("saved",OUT)
