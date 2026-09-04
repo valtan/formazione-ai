@@ -19,7 +19,7 @@
 | **Perimetro** | Autonomo e completo: il documento si legge senza rimandi ad altri file. |
 | **Rapporto con `context/normative-riferimento.md`** | Quel file resta la **scheda rapida di verifica pre-lezione**; questo è il testo di studio esteso. Nessuna contraddizione ammessa fra i due. |
 | **Formato** | Sorgente `.md` aggiornabile + `.docx` impaginato secondo `context/brand-style-guide.md`. |
-| **Collocazione** | `outputs/_formatore/` (cartella nuova, approvata). |
+| **Collocazione** | `interno/materiale-formatore/` (spostata da `outputs/_formatore/` in seguito alla riorganizzazione per committente del 2026-09-03). |
 | **Ricerca** | Verifica su fonti primarie di tutto ciò che non è già in `context/normative-riferimento.md`. |
 | **Estensione stimata** | 100-115 pagine. |
 

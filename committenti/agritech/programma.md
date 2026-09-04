@@ -23,6 +23,16 @@
 > integrati nelle giornate 1 e 2 (Mentimeter, cartellini, metodo CRAFT, piano di riserva).
 > Vedi `verifica-allineamento-2026-08-27.md` per il confronto completo.
 
+> **Aggiornamento 2026-09-03** — sezione giornata 1 (§7) allineata alla scaletta minuto per
+> minuto in `committenti/agritech/output/lezione-01-fondamenta-e-processi/scaletta-lezione.md` (versione
+> salvata lo stesso giorno): accoglienza/cartellini e nuvola Mentimeter restano in apertura;
+> l'inquadramento teorico (cos'è l'AI, LLM, limiti/allucinazioni, panoramica mercato) è ora
+> collocato **prima** dell'esercizio di prompting Fase A, che precede solo la presentazione del
+> percorso. ⚠️ La scaletta etichetta ancora questo blocco teorico come "Debrief dell'esercizio",
+> e la sezione "Impianto didattico" della scaletta continua a descrivere un approccio induttivo
+> (esercizio prima della teoria) non più coerente con questo nuovo ordine — incongruenza presente
+> nella scaletta sorgente, non risolta qui su richiesta esplicita: verificare con il formatore.
+
 ## 1. Executive summary
 
 Il percorso porta 20 persone — 16 dipendenti interni degli uffici commerciale, acquisti, amministrazione e tecnico, più 4 persone esterne di aziende del gruppo — da una conoscenza base dell'AI generativa a un uso autonomo e consapevole nei processi di lavoro quotidiani, con un orientamento finale verso la famiglia di prodotti Claude.
@@ -118,24 +128,30 @@ Projects, Skills, Plugin e MCP non vengono presentati tutti insieme: la giornata
 
 | Data e orario | Modalità | Partecipanti |
 | :---- | :---- | :---- |
-| 7 settembre, 17:00–19:00 | In presenza — sede aziendale | Plenaria (20) |
+| 7 settembre, 17:00–19:00 | In presenza — sede aziendale `[DA VERIFICARE]` | Plenaria (20) |
 
-**Obiettivi:** rompere il ghiaccio, allineare il linguaggio comune su AI/AI generativa, avviare la raccolta di casi d'uso, presentare il percorso.
+**Obiettivi:** rompere il ghiaccio e far emergere le posizioni di partenza (comprese le diffidenze), allineare il linguaggio comune su AI/AI generativa, avviare la raccolta di casi d'uso reali, presentare percorso, calendario e logica dei due gruppi.
 
-**Contenuti**
+**Impianto didattico:** approccio induttivo — prima si fa, poi si spiega. L'esercizio di prompting precede volutamente la teoria e la presentazione del corso, così che l'inquadramento risponda a qualcosa che i partecipanti hanno appena sperimentato.
 
-- Cos'è l'intelligenza artificiale e cosa la differenzia dall'AI generativa
-- Come funziona (senza tecnicismi) un modello linguistico: dati, addestramento
-- Limiti e allucinazioni
-- Panoramica del mercato: le principali famiglie di strumenti oggi disponibili, pro e contro generali
+**Contenuti** *(nell'ordine in cui vengono affrontati in aula)*
+
+- Accoglienza, consegna dei cartellini con il nome a tutti (partecipanti e formatori), presentazione formatore/ente, patto d'aula
+- Nuvola di concetti su Mentimeter: raccolta in tempo reale di percezioni, esperienze pregresse e umore dei partecipanti rispetto all'AI
+- Inquadramento teorico: cos'è l'intelligenza artificiale e cosa la differenzia dall'AI generativa, come funziona (senza tecnicismi) un modello linguistico
+- Limiti e allucinazioni: perché l'output va sempre verificato
+- Panoramica del mercato: le principali famiglie di strumenti oggi disponibili, pro e contro generali, nessun "vincitore"
+- Esercizio di gruppo sul prompting — Fase A (vedi Attività pratica)
 - Presentazione di calendario, fasi del corso e logica dei due gruppi
 
 **Attività pratica**
 
-- Prima della lezione: "cosa ne pensi"
-- Prima della presentazione del corso: esercizio di gruppo sul prompting — Fase A: devi ottenere un output, come lo scriveresti? Tentativo libero, senza indicare tecniche: il metodo CRAFT viene introdotto in giornata 2, dopo un primo tentativo spontaneo
+- Nuvola di concetti su Mentimeter (in apertura, prima di ogni contenuto teorico)
+- Esercizio di gruppo sul prompting — Fase A: "devi ottenere questo output, come lo scriveresti?" Tentativo libero, nessuna tecnica indicata: il metodo CRAFT viene introdotto in giornata 2, dopo un primo tentativo spontaneo. Confronto tra tavoli sulle formulazioni prodotte
 
-**Output atteso:** prima mappa qualitativa dei processi per ufficio; invio del questionario individuale di approfondimento
+*Se il tempo stringe:* si accorcia la panoramica di mercato, mai l'esercizio di prompting o la nuvola Mentimeter.
+
+**Output atteso:** prima mappa qualitativa dei processi per ufficio (materiale grezzo, non ancora strutturato); invio del questionario individuale di approfondimento, con scadenza fissata prima della giornata 2 (21 settembre); nota post-sessione in `note-sessioni.md`
 
 #### Giornata 2 — Le basi del prompting e il quadro normativo
 
@@ -371,6 +387,6 @@ Projects, Skills, Plugin e MCP non vengono presentati tutti insieme: la giornata
 
 - `brief.md` — dati del committente e punti ancora da verificare
 - `note-sessioni.md` — appunti post-sessione
-- `outputs/agritech/lezione-01-fondamenta-e-processi/` — materiali giornata 1
-- `outputs/agritech/lezione-02-prompting-e-regole/` — materiali giornata 2
-- `outputs/agritech/lezione-03-normativa-e-gruppi/` — materiali giornata 3
+- `committenti/agritech/output/lezione-01-fondamenta-e-processi/` — materiali giornata 1
+- `committenti/agritech/output/lezione-02-prompting-e-regole/` — materiali giornata 2
+- `committenti/agritech/output/lezione-03-normativa-e-gruppi/` — materiali giornata 3

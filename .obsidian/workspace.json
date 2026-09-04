@@ -1,0 +1,242 @@
+{
+  "main": {
+    "id": "d520e823aa44dd16",
+    "type": "split",
+    "children": [
+      {
+        "id": "4a3c5dff5e1b583d",
+        "type": "tabs",
+        "dimension": 76.45939086294416,
+        "children": [
+          {
+            "id": "29d91307227757de",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "committenti/agritech/output/lezione-01-fondamenta-e-processi/2026-09-07-panoramica-mercato-strumenti-materiale.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2026-09-07-panoramica-mercato-strumenti-materiale"
+            },
+            "group": "f95e0a1cbaff3a63"
+          }
+        ]
+      },
+      {
+        "id": "6912f56b853b6815",
+        "type": "tabs",
+        "dimension": 23.54060913705584,
+        "children": [
+          {
+            "id": "def78aaeb2b0599a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "committenti/agritech/output/lezione-01-fondamenta-e-processi/2026-09-07-panoramica-mercato-strumenti-materiale.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Struttura di 2026-09-07-panoramica-mercato-strumenti-materiale"
+            },
+            "group": "f95e0a1cbaff3a63"
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "787c76f1c74cc354",
+    "type": "split",
+    "children": [
+      {
+        "id": "f8b66daf0c1ae8a1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "486da853d08ed258",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Esplora risorse"
+            }
+          },
+          {
+            "id": "c042a9ec30c37bc5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Ricerca"
+            }
+          },
+          {
+            "id": "5eea141112a72584",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Segnalibri"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "cd67dbca13e4b7b0",
+    "type": "split",
+    "children": [
+      {
+        "id": "4406c10f72c50af9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a20e73d08a9b73f1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "committenti/agritech/output/lezione-01-fondamenta-e-processi/2026-09-07-panoramica-mercato-strumenti-materiale.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Riferimenti a 2026-09-07-panoramica-mercato-strumenti-materiale"
+            }
+          },
+          {
+            "id": "f735e56dfe062b4a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "committenti/agritech/output/lezione-01-fondamenta-e-processi/2026-09-07-panoramica-mercato-strumenti-materiale.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Collegamenti in uscita da 2026-09-07-panoramica-mercato-strumenti-materiale"
+            }
+          },
+          {
+            "id": "c2e8578e1aa602be",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etichette"
+            }
+          },
+          {
+            "id": "224933df12c9b134",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Tutte le proprietà"
+            }
+          },
+          {
+            "id": "efd61498e69eb884",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "committenti/agritech/output/lezione-01-fondamenta-e-processi/2026-09-07-panoramica-mercato-strumenti-materiale.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Struttura di 2026-09-07-panoramica-mercato-strumenti-materiale"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Apri selezione rapida": false,
+      "graph:Apri vista grafo": false,
+      "canvas:Crea nuova lavagna": false,
+      "daily-notes:Apri nota del giorno": false,
+      "templates:Inserisci modello": false,
+      "command-palette:Apri riquadro comandi": false,
+      "bases:Crea nuova Base": false
+    }
+  },
+  "active": "29d91307227757de",
+  "lastOpenFiles": [
+    "committenti/agritech/output/lezione-01-fondamenta-e-processi/Agritech_Lezione_1.pptx",
+    "Claude outputs/2026-09-07-esercizio-prompting-fase-a.pdf",
+    "Claude outputs",
+    "committenti/agritech/output/lezione-01-fondamenta-e-processi/03 - panoramica del mercato.pptx",
+    "committenti/agritech/output/lezione-01-fondamenta-e-processi/02 - limiti e allucinazioni.pptx",
+    "committenti/agritech/output/lezione-01-fondamenta-e-processi/2026-09-07-modulo-ai-e-llm-materiale.md",
+    "committenti/agritech/output/lezione-01-fondamenta-e-processi/2026-09-07-limiti-e-allucinazioni-materiale.md",
+    "committenti/agritech/output/lezione-01-fondamenta-e-processi/01 - Ai_e_come_funziona_LLM (1).pptx",
+    "committenti/agritech/output/lezione-01-fondamenta-e-processi/01 - Ai_e_come_funziona_LLM.pptx",
+    "committenti/agritech/output/lezione-01-fondamenta-e-processi/scaletta-lezione.md",
+    "committenti/agritech/output/lezione-01-fondamenta-e-processi/2026-09-07-panoramica-mercato-strumenti-materiale.md",
+    "committenti/agritech/output/lezione-01-fondamenta-e-processi/2026-09-07-esercizio-prompting-note-formatore.md",
+    "committenti/agritech/output/lezione-01-fondamenta-e-processi/2026-09-07-esercizio-prompting-fase-a.pdf",
+    "committenti/agritech/output/lezione-03-normativa-e-gruppi/scaletta-lezione.md",
+    "committenti/agritech/output/lezione-02-prompting-e-regole/scaletta-lezione.md",
+    "committenti/agritech/programma.md",
+    "interno/materiale-formatore/sedN7q3Xf",
+    "committenti/agritech/output/sedQcFnlp",
+    "committenti/agritech/sedMnjpDw",
+    "interno/README.md",
+    "committenti/_template/programma.md",
+    "interno/comunicazione-offerta/2026-06-17-audit-spacing-brochure-v2.8.md",
+    "interno/comunicazione-offerta/2026-06-12-design-philosophy-brochure-v2.md",
+    "interno/materiale-formatore/2026-08-27-normativa-ai-struttura-documento.md",
+    "committenti/agritech/note/verifica-allineamento-2026-08-27.md",
+    "committenti/agritech/note/note-sessioni.md",
+    "committenti/agritech/output/README.md",
+    "outputs/agritech/lezione-01-fondamenta-e-processi/scaletta-lezione.md"
+  ]
+}

@@ -22,11 +22,11 @@ Approccio comparativo tra chatbot generalisti (Codex, ChatGPT, Gemini, Microsoft
 ## Output attesi e dove salvarli
 Cinque famiglie di deliverable:
 
-- **Materiale informativo** (brochure, social, newsletter) → `comunicazione/<committente>/` oppure `comunicazione/_offerta/` se è marketing della mia offerta
+- **Materiale informativo** (brochure, social, newsletter) → `committenti/<committente>/comunicazione/` oppure `interno/comunicazione-offerta/` se è marketing della mia offerta
 - **Progettazione didattica** (moduli, obiettivi, tempi) → `committenti/<committente>/programma.md`
-- **Materiali teorici** (.docx, .pdf) → `outputs/<committente>/`
-- **Slide** (.pptx, max 5-6 punti per slide, narrazione nelle note del relatore) → `outputs/<committente>/`
-- **Esercitazioni e valutazione** (casi d'uso, prompt, quiz, rubric) → `outputs/<committente>/`
+- **Materiali teorici** (.docx, .pdf) → `committenti/<committente>/output/`
+- **Slide** (.pptx, max 5-6 punti per slide, narrazione nelle note del relatore) → `committenti/<committente>/output/`
+- **Esercitazioni e valutazione** (casi d'uso, prompt, quiz, rubric) → `committenti/<committente>/output/`
 
 Naming: `AAAA-MM-GG-<titolo-snake-case>.<ext>`. Bozze con suffisso `-bozza`, versioni successive con `-v2`, `-v3`.
 

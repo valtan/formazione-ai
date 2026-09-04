@@ -55,7 +55,7 @@ Claude da avere pronti **entro la giornata 2**; in mancanza, prevedere esercitaz
 dimostrative"), che trattava l'assenza di accessi come un'eccezione da tamponare, non come il piano.
 
 **Impatto diretto sulla giornata 2** (validata): la scaletta che ho prodotto
-(`outputs/agritech/lezione-02-prompting-e-regole/scaletta-lezione.md`) prevede un "workshop
+(`committenti/agritech/output/lezione-02-prompting-e-regole/scaletta-lezione.md`) prevede un "workshop
 individuale guidato" con test di prompt sui propri dispositivi — coerente con il programma
 originale, ma non con l'indicazione "computer dal giorno 4" della call.
 
@@ -139,6 +139,6 @@ giornata 2, ecc.) fa fede il documento di programma fornito dal committente, non
 — che infatti, su questo punto, risultano già coerenti tra loro e con il programma.
 
 File aggiornati di conseguenza: `programma.md`, `brief.md`,
-`outputs/agritech/lezione-01-fondamenta-e-processi/scaletta-lezione.md`,
-`outputs/agritech/lezione-02-prompting-e-regole/scaletta-lezione.md`,
-`outputs/agritech/lezione-03-normativa-e-gruppi/scaletta-lezione.md`.
+`committenti/agritech/output/lezione-01-fondamenta-e-processi/scaletta-lezione.md`,
+`committenti/agritech/output/lezione-02-prompting-e-regole/scaletta-lezione.md`,
+`committenti/agritech/output/lezione-03-normativa-e-gruppi/scaletta-lezione.md`.

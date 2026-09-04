@@ -1,4 +1,4 @@
-# outputs/agritech/
+# committenti/agritech/output/
 
 Materiali didattici del percorso di alfabetizzazione AI per **Agritech**
 (12 giornate, 7 settembre – 23 novembre 2026).
