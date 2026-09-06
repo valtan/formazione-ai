@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "committenti/agritech/output/lezione-01-fondamenta-e-processi/2026-09-07-panoramica-mercato-strumenti-materiale.md",
+                "file": "committenti/agritech/output/lezione-01-fondamenta-e-processi/scaletta-lezione.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-09-07-panoramica-mercato-strumenti-materiale"
+              "title": "scaletta-lezione"
             },
             "group": "f95e0a1cbaff3a63"
           }
@@ -36,13 +36,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "committenti/agritech/output/lezione-01-fondamenta-e-processi/2026-09-07-panoramica-mercato-strumenti-materiale.md",
+                "file": "committenti/agritech/output/lezione-01-fondamenta-e-processi/scaletta-lezione.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Struttura di 2026-09-07-panoramica-mercato-strumenti-materiale"
+              "title": "Struttura di scaletta-lezione"
             },
             "group": "f95e0a1cbaff3a63"
           }
@@ -66,10 +66,12 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
-              "title": "Esplora risorse"
+              "title": "Esplora file"
             }
           },
           {
@@ -199,10 +201,10 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Apri selezione rapida": false,
+      "switcher:Apri selettore rapido": false,
+      "daily-notes:Apri nota giornaliera": false,
       "graph:Apri vista grafo": false,
       "canvas:Crea nuova lavagna": false,
-      "daily-notes:Apri nota del giorno": false,
       "templates:Inserisci modello": false,
       "command-palette:Apri riquadro comandi": false,
       "bases:Crea nuova Base": false
@@ -210,6 +212,9 @@
   },
   "active": "29d91307227757de",
   "lastOpenFiles": [
+    "committenti/agritech/output/lezione-01-fondamenta-e-processi/sedq4Qlkl",
+    "committenti/agritech/output/lezione-01-fondamenta-e-processi/2026-09-07-questionario-individuale.md",
+    "committenti/agritech/output/lezione-01-fondamenta-e-processi/2026-09-07-panoramica-mercato-strumenti-materiale.md",
     "committenti/agritech/output/lezione-01-fondamenta-e-processi/Agritech_Lezione_1.pptx",
     "Claude outputs/2026-09-07-esercizio-prompting-fase-a.pdf",
     "Claude outputs",
@@ -220,7 +225,6 @@
     "committenti/agritech/output/lezione-01-fondamenta-e-processi/01 - Ai_e_come_funziona_LLM (1).pptx",
     "committenti/agritech/output/lezione-01-fondamenta-e-processi/01 - Ai_e_come_funziona_LLM.pptx",
     "committenti/agritech/output/lezione-01-fondamenta-e-processi/scaletta-lezione.md",
-    "committenti/agritech/output/lezione-01-fondamenta-e-processi/2026-09-07-panoramica-mercato-strumenti-materiale.md",
     "committenti/agritech/output/lezione-01-fondamenta-e-processi/2026-09-07-esercizio-prompting-note-formatore.md",
     "committenti/agritech/output/lezione-01-fondamenta-e-processi/2026-09-07-esercizio-prompting-fase-a.pdf",
     "committenti/agritech/output/lezione-03-normativa-e-gruppi/scaletta-lezione.md",
@@ -228,7 +232,6 @@
     "committenti/agritech/programma.md",
     "interno/materiale-formatore/sedN7q3Xf",
     "committenti/agritech/output/sedQcFnlp",
-    "committenti/agritech/sedMnjpDw",
     "interno/README.md",
     "committenti/_template/programma.md",
     "interno/comunicazione-offerta/2026-06-17-audit-spacing-brochure-v2.8.md",
