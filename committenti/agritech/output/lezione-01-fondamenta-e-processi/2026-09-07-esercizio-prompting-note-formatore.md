@@ -68,3 +68,31 @@ amministrazione e acquisti senza bisogno di calarle nel gergo di un settore:
   contingency
 - `2026-09-07-esercizio-prompting-fase-a.pdf` — scheda da fotocopiare per i tavoli (2 pagine,
   Fase A + Fase B)
+
+## Nota di revisione (2026-09-06)
+
+Il testo-bersaglio della Fase B nella scheda distribuita non corrispondeva più al vincolo
+descritto sopra ("pochi ancoraggi concreti, vincolo di tono, non di dati"): era diventato
+un'email di conferma consegna con giorno, ora, indirizzo e quantità — dati che il gruppo
+avrebbe dovuto comunque trascrivere nel prompt, annullando lo scarto di tempo tra scrivere il
+prompt e scrivere l'email a mano.
+
+Corretto in un nuovo scenario coerente con lo stesso genere "rimandare un impegno":
+
+> Oggetto: Devo rimandare l'appuntamento di domani
+>
+> Ciao [Nome],
+>
+> mi è saltato fuori un imprevisto e purtroppo non riesco a esserci domani come avevamo detto.
+> Mi dispiace per il disagio, soprattutto con così poco preavviso.
+>
+> Ti andrebbe bene recuperare la settimana prossima? Dimmi tu quando ti torna meglio e
+> troviamo subito una nuova data.
+>
+> A presto,
+> [Nome]
+
+Unici ancoraggi concreti: "domani" e "la settimana prossima" (nessuna data, ora, indirizzo o
+quantità) — il confronto tra tavoli su tono e registro resta quindi il punto di interesse.
+La versione precedente è archiviata in
+`archivio/2026-09-07-esercizio-prompting-fase-a-v1-fase-b-consegna.pdf`.

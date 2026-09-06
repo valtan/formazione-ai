@@ -50,12 +50,12 @@ percorso parte a seguire, non più alle 18:35.
 | Materiale di base — Limiti e allucinazioni | .md | `2026-09-07-limiti-e-allucinazioni-materiale.md` | ✅ prodotto (bozza da validare) |
 | Materiale di base — Panoramica del mercato, famiglie di strumenti | .md | `2026-09-07-panoramica-mercato-strumenti-materiale.md` | ✅ prodotto (bozza da validare) |
 | Slide della giornata | .pptx | `2026-09-07-lezione-01-slide.pptx` | da produrre |
-| Nuvola di concetti | sessione Mentimeter | — (link/codice sessione, non un file di cartella) | da preparare |
+| Nuvola di concetti | sessione Mentimeter | — (link/codice sessione, non un file di cartella); piano dettagliato in `2026-09-07-mentimeter-nuvola-concetti-piano.md` | 🟡 piano pronto, sessione Mentimeter da creare |
 | Cartellini nominali (partecipanti + formatori) | .pdf stampabile | `2026-09-07-cartellini-nominali.pdf` | da produrre |
 | Scheda esercizio prompting — Fase A + Fase B | .pdf stampabile (2 pagine) | `2026-09-07-esercizio-prompting-fase-a.pdf` | ✅ prodotto |
 | Note per il formatore — esercizio di prompting | .md (uso interno, non distribuire) | `2026-09-07-esercizio-prompting-note-formatore.md` | ✅ prodotto |
 | One-pager del percorso (calendario + fasi + gruppi) | .pdf | `2026-09-07-one-pager-percorso.pdf` | da produrre |
-| Questionario individuale post-giornata 1 | modulo online + copia .md | `2026-09-07-questionario-individuale.md` | da produrre |
+| Questionario individuale post-giornata 1 | modulo online + copia .md | `2026-09-07-questionario-individuale.md` | 🟡 bozza .md prodotta (2026-09-04), modulo Google da realizzare |
 
 ## Output atteso dalla giornata
 
@@ -67,6 +67,6 @@ percorso parte a seguire, non più alle 18:35.
 ## Punti aperti
 
 - `[DA VERIFICARE]` Aula, capienza, disposizione a tavoli, proiettore, connessione in sede e disponibilità della piattaforma Mentimeter.
-- `[DA VERIFICARE]` Su quale strumento gira il questionario individuale (modulo Google, Microsoft Forms, altro) e chi lo invia.
+- Strumento confermato con Valentino il 2026-09-04: Google Moduli, risposte nominali. Resta da definire chi lo invia ai partecipanti (formatore o referente Agritech).
 - `[DA VERIFICARE]` Presenza del referente aziendale in apertura per legittimare il percorso.
 - Preparare in anticipo gli screenshot del piano di riserva (vedi `committenti/agritech/programma.md` §9) da usare in caso di problemi con Mentimeter o con gli strumenti durante la demo.
